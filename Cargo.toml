@@ -1,0 +1,23 @@
+[workspace]
+members = [
+	"core",
+]
+
+[workspace.package]
+license = "AGPL-3.0-only"
+edition = "2021"
+
+[workspace.dependencies]
+prisma-client-rust = { git = "https://github.com/Brendonovich/prisma-client-rust", features = [
+	"rspc",
+	"sqlite-create-many",
+	"migrations",
+	"sqlite",
+], default-features = false }
+prisma-client-rust-cli = { git = "https://github.com/Brendonovich/prisma-client-rust", features = [
+	"rspc",
+	"sqlite-create-many",
+	"migrations",
+	"sqlite",
+], default-features = false }
+rspc = { version = "0.1.3" }
