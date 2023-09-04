@@ -1,0 +1,18 @@
+{
+    "private": true,
+    "scripts": {
+        "web": "pnpm --filter @ns/web -- ",
+        "interface": "pnpm --filter @ns/interface -- "
+    },
+    "devDependencies": {
+		"@cspell/dict-rust": "^2.0.1",
+		"@cspell/dict-typescript": "^2.0.2",
+		"prettier": "^3.0.3",
+		"prettier-plugin-tailwindcss": "^0.5.3",
+		"typescript": "^5.0.4",
+		"vite": "^4.3.9"
+    },
+    "eslintConfig": {
+        "root": true
+    }
+}
