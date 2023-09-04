@@ -18,4 +18,10 @@ Cargo.lock
 
 /target
 
+# Other
+
 node_modules
+dist
+
+.turbo
+.vercel
