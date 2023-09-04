@@ -2,6 +2,7 @@
     "private": true,
     "scripts": {
         "web": "pnpm --filter @ns/web -- ",
+        "dev:web": "turbo run dev --filter @sd/web --filter @sd/server",
         "interface": "pnpm --filter @ns/interface -- "
     },
     "devDependencies": {
@@ -9,6 +10,8 @@
 		"@cspell/dict-typescript": "^2.0.2",
 		"prettier": "^3.0.3",
 		"prettier-plugin-tailwindcss": "^0.5.3",
+		"turbo": "^1.10.2",
+		"turbo-ignore": "^0.3.0",
 		"typescript": "^5.0.4",
 		"vite": "^4.3.9"
     },
