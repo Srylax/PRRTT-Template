@@ -2,7 +2,7 @@
     "private": true,
     "scripts": {
         "web": "pnpm --filter @ns/web -- ",
-        "dev:web": "turbo run dev --filter @sd/web --filter @sd/server",
+        "dev:web": "turbo run dev --filter @ns/web --filter @ns/server",
         "interface": "pnpm --filter @ns/interface -- "
     },
     "devDependencies": {
