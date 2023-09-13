@@ -1,0 +1,55 @@
+{
+  "name": "@ns/interface",
+  "version": "0.0.0",
+  "private": true,
+  "main": "index.tsx",
+  "types": "index.tsx",
+  "exports": {
+    ".": "./index.tsx",
+    "./components/*": "./components/*",
+    "./hooks/*": "./hooks/*"
+  },
+  "scripts": {
+    "lint": "eslint . --cache",
+    "typecheck": "tsc -b",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "6.9.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4",
+    "tailwindcss": "^3.3.3"
+  },
+  "devDependencies": {
+    "@ns/config": "workspace:*",
+    "@types/node": "^16.18.46",
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "@types/react-router-dom": "^5.3.3",
+    "@vitejs/plugin-react": "^2.1.0",
+    "typescript": "^5.0.4",
+		"vite": "^4.0.4",
+		"vite-plugin-svgr": "^2.2.1"
+
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

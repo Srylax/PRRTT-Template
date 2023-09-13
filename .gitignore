@@ -17,3 +17,14 @@ Cargo.lock
 # Added by cargo
 
 /target
+
+# Other
+
+node_modules
+dist
+
+.turbo
+.vercel
+
+*.tsbuildinfo
+package-lock.json
