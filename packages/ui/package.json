@@ -1,0 +1,26 @@
+{
+  "name": "@ns/ui",
+  "exports": {
+    ".": "./src/index.ts",
+    "./src/forms": "./src/forms/index.ts",
+    "./tailwind": "./style/tailwind.js",
+    "./style": "./style/index.js",
+    "./style/style.scss": "./style/style.scss",
+    "./package.json": "./package.json"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "6.9.0",
+    "react-scripts": "5.0.1",
+    "tailwindcss": "^3.3.3"
+  },
+  "devDependencies": {
+    "@ns/config": "workspace:*",
+    "@types/node": "^16.18.46",
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "typescript": "^5.0.4",
+    "tailwindcss": "^3.3.3"
+  }
+}
